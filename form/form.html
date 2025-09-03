@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form-container" >
+        <h1> Registration from</h1>
+        <form >
+            <label for="Name">Full Name</label>
+            <input type="text" name="Name" id="Nmae" placeholder="Enter your full name" required>
+            <label for="Email">Mail id</label>
+            <input type="Email" name="Email" id="Email" placeholder="Enter your mail id" required>
+            <label for="Phone Number">Enter the phone number</label>
+            <input type="phone number " name="phone number" id="phobe number" placeholder="Enter your phone number" required>
+            <label for="Password">Password</label>
+            <input type="password" name="Password" id="Password" placeholder="Enter your password" required>
+
+            <label for="gender">Enter the gender</label>
+            <div class="radio.group">
+            <label><input type="radio" name="gender" id="male">male</label>       
+            <label><input type="radio" name="gender" id="female">female</label>
+            <label><input type="radio" name="gender" id="other">other</label>
+            </div>
+            <label >skill</label>
+            <div class="radio.group">
+            <label><input type="checkbox" name="skill" id="html">html</label>
+            <label><input type="checkbox" name="skill" id="css">css</label>
+            <label><input type="checkbox" name="skill" id="javascript">javascript</label>
+            <label><input type="checkbox" name="skill" id="python">python</label>
+            </div>
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="india">---select---</option>
+                <option value="usa">india</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>    
+            </select>
+            <label for="message">message</label>
+            <textarea name="message" id="message" rows="4" placeholder="write your message:"></textarea>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
