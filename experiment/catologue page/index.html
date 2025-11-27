@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book catalogue</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        
+            padding: 20px;
+            background-color: #f6f6f6;
+        }
+        h2{
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 90%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px ;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        img {
+            max-width: 100px;
+            height: auto;
+        }
+        .book-info{
+            text-align: left;
+        }
+        .cart-btn img{
+            width: 30px;
+            height: auto;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Book catalogue</h2>
+    <table>
+        <tr>
+            <th>Book</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Add to Cart</th>
+        </tr>
+        <!--book 1-->
+        <tr>
+            <td>
+                <img src="https://www.bing.com/images/search?view=detailV2&ccid=0biO3kju&id=D1C450EE96193F264EF2E6D279764566CF779C29&thid=OIP.0biO3kjus-WR7U-nPWDk6QAAAA&mediaurl=https%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fthumb%2f3%2f35%2fThe_C_Programming_Language_logo.svg%2f200px-The_C_Programming_Language_logo.svg.png&exph=209&expw=200&q=c+programming+wikipedia&FORM=IRPRST&ck=3D9A672CC18AC66182A35A7DE2D76D15&selectedIndex=5&itb=1" alt="C Programming Language book">
+            </td>
+            <td class="book info">
+                <b>Book:</b> C Programming Language<br>
+                <b>Author:</b> Brian W. Kernighan, Dennis M. Ritchie<br>
+                <b>publisher:</b> Prentice Hall<br>
+
+            </td>
+            <td class="price">$45.00</td>
+            <td>
+                <button class="cart-btn">
+                    <img src="https://www.bing.com/images/search?view=detailV2&ccid=8W3%2b0WJ3&id=E3E3C1D1C6F1C4E8B8F5D6A7C8E9F0A1B2C3D4E5&thid=OIP.8W3-0WJ3JH5kX5Yz5Yz5YQHaHa&mediaurl=https%3a%2f%2fcdn-icons-png.flaticon.com%2f512%2f1170%2f1170678.png&exph=512&expw=512&q=shopping+cart+icon&FORM=IRPRST&ck=F1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6&selectedIndex=0&itb=1" alt="Add to Cart">
+                    </button>
+            </td>
+        </tr>
+        <!--book 2-->
+        <tr>
+            <td>
+                <img src="https://www.bing.com/images/search?view=detailV2&ccid=Z5WQ1j0H&id=F3A4B5C6D7E8F9A0B1C2D3E4F5G6H7I8J9K0L1M2&thid=OIP.Z5WQ1j0HkL4M5N6O7P8Q9RHaHa&mediaurl=https%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fen%2fthumb%2f7%2f79%2fIntroduction_to_Algorithms_%28Third_Edition%29_cover.png%2f220px-Introduction_to_Algorithms_%28Third_Edition%29_cover.png&exph=280&expw=220&q=introduction+to+algorithms+book&FORM=IRPRST&ck=A1B2C3D4E5F6G7H8I9J0K1L2M3N4O5P6&selectedIndex=3&itb=1" alt="Introduction to Algorithms book">
+            </td>
+            <td class="book info">
+                <b>Book:</b> Introduction to Algorithms<br>
+                <b>Author:</b> Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein<br>
+                <b>publisher:</b> MIT Press<br>
+
+            </td>
+            <td class="price">$80.00</td>
+            <td>
+                <button class="cart-btn">
+                    <img src="https://www.bing.com/images/search?view=detailV2&ccid=8W3%2b0WJ3&id=E3E3C1D1C6F1C4E8B8F5D6A7C8E9F0A1B2C3D4E5&thid=OIP.8W3-0WJ3JH5kX5Yz5Yz5YQHaHa&mediaurl=https%3a%2f%2fcdn-icons-png.flaticon.com%2f512%2f1170%2f1170678.png&exph=512&expw=512&q=shopping+cart+icon&FORM=IRPRST&ck=F1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6&selectedIndex=0&itb=1" alt="Add to Cart">
+                    </button>   
+            </td>
+        </tr>
+     <!--book 3-->
+        <tr>
+            <td>
+                <img src="https://www.bing.com/images/search?view=detailV2&ccid=VY2F1j3H&id=A1B2C3D4E5F6G7H8I9J0K1L2M3N4O5P6Q7R8S9T0&thid=OIP.VY2F1j3HkL4M5N6O7P8Q9RHaHa&mediaurl=https%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fen%2fthumb%2f0%2f0b%2fClean_Code.jpg%2f220px-Clean_Code.jpg&exph=280&expw=220&q=clean+code+book&FORM=IRPRST&ck=B1C2D3E4F5G6H7I8J9K0L1M2N3O4P5Q6&selectedIndex=1&itb=1" alt="Clean Code book">
+            </td>
+            <td class="book info">
+                <b>Book:</b> Clean Code: A Handbook of Agile Software Craftsmanship<br>
+                <b>Author:</b> Robert C. Martin<br>
+                <b>publisher:</b> Prentice Hall<br>
+
+            </td>
+            <td class="price">$50.00</td>
+            <td>
+                <button class="cart-btn">
+                    <img src="https://www.bing.com/images/search?view=detailV2&ccid=8W3%2b0WJ3&id=E3E3C1D1C6F1C4E8B8F5D6A7C8E9F0A1B2C3D4E5&thid=OIP.8W3-0WJ3JH5kX5Yz5Yz5YQHaHa&mediaurl=https%3a%2f%2fcdn-icons-png.flaticon.com%2f512%2f1170%2f1170678.png&exph=512&expw=512&q=shopping+cart+icon&FORM=IRPRST&ck=F1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6&selectedIndex=0&itb=1" alt="Add to Cart">
+                    </button>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
